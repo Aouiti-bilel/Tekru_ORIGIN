@@ -1,0 +1,32 @@
+{
+    "HELLO_M": "Cher",
+    "HELLO_F": "Chere",
+	"EMAIL_SIGNATURE": "L’équipe Origin",
+	
+	"BAD_USER_PASSWORD": "Mot de passe erroné",
+	"USER_DEACTIVATED": "L'utilisateur est désactivé",
+	"NOT_AUTHENTICATED": "Vous n'êtes pas connecté",
+	"NO_USER_FOUND": "Aucun utilisateur trouvé",
+	"SERVER_ERROR": "Erreur avec le serveur, merci d'essayer plus tard.",
+	"MAIL_SERVER_ERROR": "Erreur avec le serveur mail, merci d'essayer plus tard.",
+	"RESET_TOKEN_ERROR": "Vous avez déja réinitialiser votre mot de passe.",
+	"OLD_PASSWORD_NOT_OK": "Votre mot de passe n'est pas bon.",
+	"PASSWORDS_NOT_OK": "Le mot de passe n'est pas bon.",
+	"GRANT_ERROR": "Vous n'avez pas accès à cette partie.",
+
+	"PWD_FORGET_SUBJECT": "Mot de passe oublié",
+
+	"FORGET_EMAIL_PREHEADER": "Utilisez ce lien pour réinitialiser votre mot de passe. Le lien n'est valable que pour 24 heures.",
+	"FORGET_EMAIL_L1": "Vous avez récemment demandé à réinitialiser votre mot de passe pour votre compte. Utilisez le bouton ci-dessous pour le réinitialiser.",
+	"FORGET_EMAIL_TIMING": "Cette réinitialisation du mot de passe n'est valable que pour les prochaines 24 heures.",
+	"FORGET_EMAIL_L2": "Si vous n'avez pas demandé de réinitialisation de mot de passe, veuillez ignorer cet email ou contacter le support technique sur support@origin.expert si vous avez des questions.",
+
+	"PWD_RESTED_SUBJECT": "Mot de passe modifié",
+	"PWD_RESET_EMAIL_PREHEADER": "Votre mot de passe a été réinitialisé avec succès",
+	"PWD_RESET_EMAIL_L1": "Votre mot de passe a été réinitialisé avec succès, vous pouvez maintenant vous connecter avec votre nouveau mot de passe.",
+	"PWD_RESET_EMAIL_L2": "Si vous n'avez pas demandé de réinitialisation de mot de passe, veuillez ignorer cet email ou contacter le support technique sur support@origin.expert si vous avez des questions.",
+	
+	"ERROR_WITH_LINK": "Si vous rencontrez des problèmes avec le bouton ci-dessus, copiez et collez l’URL ci-dessous dans votre navigateur Web.",
+
+	"RESET_YOUR_PASSWORD": "Réinitialisez votre mot de passe"
+}

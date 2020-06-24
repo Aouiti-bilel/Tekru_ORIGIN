@@ -1,0 +1,35 @@
+// Comit docker image before exit
+docker commit -a me c76921d16f4b origindb-docker:latest
+
+// Run the docker image
+docker run -it -p 1433:1433 origindb-docker
+
+// GIT
+git add .
+git commit -m "Initial readme"
+git push -u origin master
+
+// SSL 
+SSH key: Ddfg34fg
+ssh -T git@gitlab.globetechnologie.com
+
+curl -v --trace-time 192.95.20.211:443
+
+pbcopy < /Users/macbookpro/.ssh/id_ed25519
+
+ssh-keygen -t ed25519 -C "My MacBook Pro"
+
+openssl s_client -connect gitlab.globetechnologie.com:443 -msg -servername gitlab.globetechnologie.com
+openssl s_client -connect domain.tld:443 -servername domain.tld
+
++--[ED25519 256]--+
+|                 |
+|                 |
+|       o .       |
+|      o.*.o      |
+| .  +o=.SOo.     |
+|  o E@+X=O..     |
+|   *..@== +      |
+|  + ..+*oo       |
+|     ..+o .      |
++----[SHA256]-----+

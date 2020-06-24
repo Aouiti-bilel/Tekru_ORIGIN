@@ -1,0 +1,51 @@
+{
+  "name": "origin-backend",
+  "version": "0.2.0",
+  "description": "Origin Apollo is an Apollo Server for Origin Expert company in Canada.",
+  "keywords": [],
+  "author": "Mohamed Kharrat",
+  "license": "Private",
+  "private": true,
+  "main": "server/app.js",
+  "scripts": {
+    "start": "nodemon server/app.js --exec babel-node --presets babel-preset-env",
+    "clean": "rm -rf build && mkdir build",
+    "build-server": "babel -d ./build ./server",
+    "build": "npm run clean && npm run build-server",
+    "debug": "node --inspect ./build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.15.0",
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "downsize": "^0.0.8",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "graphql": "^15.1.0",
+    "graphql-tools": "^6.0.10",
+    "i18n": "^0.10.0",
+    "jsdom": "^16.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.27.0",
+    "mssql": "^6.2.0",
+    "nodemailer": "^6.4.10",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "randomstring": "^1.1.5",
+    "sequelize": "^5.21.9",
+    "slugify": "^1.4.2",
+    "url-join": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^2.0.4"
+  }
+}

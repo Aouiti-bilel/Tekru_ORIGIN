@@ -1,0 +1,156 @@
+{
+  "default_dev_env": "local",
+  "default_port": 8880,
+  "local": {
+    "jwt_secret": "TNEsc5UeV5DsZ8sL",
+    "port": 8880,
+    "cleanOnStart": true,
+    "db": {
+      "username": "sa",
+      "password": "tekru123",
+      "database": "ProjetOriginDev",
+      "host": "127.0.0.1",
+      "dialect": "mssql"
+    },
+    "urls": {
+      "frontend_domain": "http://localhost:3000",
+      "frontend_url": "http://localhost:3000/",
+      "server_url": "http://localhost:8880/"
+    },
+    "email": {
+      "host": "smtp.ethereal.email",
+      "secure": false,
+      "require_TLS": true,
+      "port": 587,
+      "username": "adah.crooks91@ethereal.email",
+      "password": "yWbQJesE9TFBJYvkFN"
+    },
+    "folders": {
+      "upload_main": "public/uploads/",
+      "upload_image": "public/uploads/images/",
+      "upload_user": "public/uploads/images/users/",
+      "upload_misc": "public/uploads/misc/",
+      "upload_misc_image": "public/uploads/images/misc/",
+      "upload_content_image": "public/uploads/images/content/",
+      "upload_menu_categories": "public/uploads/images/menu-categories/"
+    },
+    "frontend": {
+      "serve": false,
+      "folder": "public/frontend/"
+    }
+  },
+  "dev": {
+    "jwt_secret": "TNEsc5UeV5DsZ8sL",
+    "port": 8880,
+    "cleanOnStart": true,
+    "db": {
+      "username": "kharrat",
+      "password": "8h972AXot65XtMdUN2",
+      "database": "ProjetOriginDev",
+      "host": "127.0.0.1",
+      "dialect": "mssql"
+    },
+    "urls": {
+      "frontend_domain": "http://dev-intranet-frontend.origin-enquetes-technico-legales-inc.globetechnologie.net",
+      "frontend_url": "http://dev-intranet-frontend.origin-enquetes-technico-legales-inc.globetechnologie.net/",
+      "server_url": "http://dev-intranet-backend.origin-enquetes-technico-legales-inc.globetechnologie.net/"
+    },
+    "email": {
+      "host": "mail.globetechnologie.com",
+      "secure": false,
+      "require_TLS": true,
+      "port": 587,
+      "username": "noreply_origin@globetechnologie.com",
+      "password": ""
+    },
+    "folders": {
+      "upload_main": "public/uploads/",
+      "upload_image": "public/uploads/images/",
+      "upload_user": "public/uploads/images/users/",
+      "upload_misc": "public/uploads/misc/",
+      "upload_misc_image": "public/uploads/images/misc/",
+      "upload_content_image": "public/uploads/images/content/",
+      "upload_menu_categories": "public/uploads/images/menu-categories/"
+    },
+    "frontend": {
+      "serve": true,
+      "folder": "public/frontend/"
+    }
+  },
+  "staging": {
+    "jwt_secret": "TNEsc5UeV5DsZ8sL",
+    "port": 8880,
+    "cleanOnStart": true,
+    "db": {
+      "username": "",
+      "password": "",
+      "database": "",
+      "host": "",
+      "dialect": "mssql"
+    },
+    "urls": {
+      "frontend_domain": "https://staging.intranet.origin.expert",
+      "frontend_url": "https://staging.intranet.origin.expert/",
+      "server_url": "https://staging.intranet.origin.expert/"
+    },
+    "email": {
+      "host": "mail.globetechnologie.com",
+      "secure": false,
+      "require_TLS": true,
+      "port": 587,
+      "username": "noreply_origin@globetechnologie.com",
+      "password": ""
+    },
+    "folders": {
+      "upload_main": "public/uploads/",
+      "upload_image": "public/uploads/images/",
+      "upload_user": "public/uploads/images/users/",
+      "upload_misc": "public/uploads/misc/",
+      "upload_misc_image": "public/uploads/images/misc/",
+      "upload_content_image": "public/uploads/images/content/",
+      "upload_menu_categories": "public/uploads/images/menu-categories/"
+    },
+    "frontend": {
+      "serve": true,
+      "folder": "public/frontend/"
+    }
+  },
+  "master": {
+    "jwt_secret": "TNEsc5UeV5DsZ8sL",
+    "port": 8880,
+    "cleanOnStart": false,
+    "db": {
+      "username": "",
+      "password": "",
+      "database": "",
+      "host": "",
+      "dialect": "mssql"
+    },
+    "urls": {
+      "frontend_domain": "https://intranet.origin.expert",
+      "frontend_url": "https://intranet.origin.expert/",
+      "server_url": "https://intranet.origin.expert/"
+    },
+    "email": {
+      "host": "mail.globetechnologie.com",
+      "secure": false,
+      "require_TLS": true,
+      "port": 587,
+      "username": "noreply_origin@globetechnologie.com",
+      "password": ""
+    },
+    "folders": {
+      "upload_main": "public/uploads/",
+      "upload_image": "public/uploads/images/",
+      "upload_user": "public/uploads/images/users/",
+      "upload_misc": "public/uploads/misc/",
+      "upload_misc_image": "public/uploads/images/misc/",
+      "upload_content_image": "public/uploads/images/content/",
+      "upload_menu_categories": "public/uploads/images/menu-categories/"
+    },
+    "frontend": {
+      "serve": true,
+      "folder": "public/frontend/"
+    }
+  }
+}
